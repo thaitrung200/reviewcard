@@ -1,0 +1,34 @@
+function Header(){
+    return <h2>Our Review</h2>
+}
+function ReviewCard(){
+    return(
+    <div className="review">
+        <div className="author">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIQAZAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAGAAMEBQcCAQj/xAA6EAACAQMCAwUFBQgCAwAAAAABAgMABBEFIRIxQQYTIlFhBzJxgZEUI0KhwRVSYrHR4fDxJJJEcoL/xAAZAQADAQEBAAAAAAAAAAAAAAACAwQBBQD/xAAiEQACAgMAAgIDAQAAAAAAAAAAAQIRAyExEkEEIjJRYRP/2gAMAwEAAhEDEQA/AC61trZuOS2CDjbiYocjJ9On5VNtbSWWUxrjOCQfP9aAbPVyjAhip8wcGiTT+0gPCs/DL5HPC1cpZ5x0yx4E9oIUQqxSQEMOYNPd2vCT0ri21C01DhUTDj6B9m+A86E/afrMul6Y1lbvwvMv3jA4KqdsfE7/ACBp8ZxycEuEovYEdvu0Z1fUWtbWT/gW54QQ2BI3Un9KEZL1Izv4sfhGBUC4lMjcI26bc/8AdemLugvh8R5AH9aqjBJASZYuZ7tuKdO6ixsM86biIgPCSR6nl+VSrKVGte6lU5HI+lRZ8Jng5cs0YOywF6Y4wnvjmDmtA9nXbO3t5TZ6m4iaQgRXeM8GBsrea/56jLIuJWwNxzK1JQ7gqa8lRjVo+gbh5J7V5ZlCy3MqggHlk8RA+S4qTwYUCgn2fa3JqEEOm3b8T23E8bMclgcDHy/WjtqO7EPWhtYmYZUZpVeaTAv2TiYe8xP6fpSr1jEjDJbVCMgFD6VEY3EDeA8Y9Nqlw3i3KSMiMqpjJPrn+hpmV/EMVA4plik0K07QBXKlxlThhnODQ12r1q4v5nSSVmjDDCk55bAf551UmMpqMjR+HxncCmLli8mW880WPBGErR6WRyjTOrKPik4jvg7fGiHTdINwQ8ineqjTEHeID8a0TSLf7lduVMnJmQimVseipLZAKvC3CCDjriqa408hXV1w6enL40fQwd3GV6ocD4dKgavYiVBNFgSAdfxDyNBGTDlEz6WIINtiOVchs78iOeKm6gqiXY/LyNV0mUfI5dapjwmkqYQdmNWOl6pBcA+FW8QHUGt0jkWaNJEOVYAivnK3bDAjB9D1rfew066hpNhg5woDfKiWhU17De2Tu7eNPJQDXlOilWBnz3o9uGs5jjnIPyH96buouFqttJsbm1sTHPGC5cnwHi8h+lQb4EE8YZf/AGGKlg4uOmPlflwBJRwG4dufeuB/2NV84wAfSrLVPBI6qc8UjN9Tmq+6I4cfCmRdsxqh3TC0sqoj8Lcga0PRWvICBMyOmNiKzzRLSS6c93zDb/CjfSdInj1BrlJnWNjkw48OOvlQ5KGY0+hVOT3XepttvQ/qRXd7y8EUXlnAou0+176yZcb569RQ9rPZ13Mg4S8TqAUzgrvnY0uIySAzUzYsytZzB/nzqvYAjDbg0XHQI0tggjZTGPAGob1G2e3JYDGehFPhJcETgQEzE2CcjoR0rbPYpc/aLa5hJBMG4/8Ar/RrE0kVxhkGfStE9iupLbdpzbFvDdxNHg/vDxD8gaaxDRvJIHWlVJNI008rKduLA+VeVFL5dNqhqxf0p/2fAy7oPpVD2psFis2aNiAilvif7UVgGhb2h3YtdHCggNI2PlXKw/aaR0ZukY1rMom1A4ChU2HCoH8qpL+TDKBU+d8yM59SfjVetvNf3fc28bO2MkAZwPM128SIcjCf2dFJLqeNvf2IHpWmNCEh4vpQd2T7MMgjkiZo2QZ70D3j+tGMMrOj29xgSpscDAI8xScjuWh+LUaZfaDGr2WW6jIpi5z9peI9PPyqjS47qUxfbOEDmoYZAPlV3FJacCtHcLJnbi48k1ieg2qdnBtVbmMis+9oMP2K3M0a/iH58/yzWn4BXI32rKvazcs32eJPdSTLkfA4/Wjx/kKyy0BBkwVkQ+Ft/gaJOxepDTO0Wn3ZfhRZlLHyHWhFXzCQelS7KYo3iXjRd+e4qmRLo+prdh3KEEEMOLI65pVlGg+0FLPTI7eVHkKbAlhy8qVcx/HyXwepRo1RiFUsTgAZJPSsq9p16ZLlYnY8Y/B+6vkfWtTuRgAN7gy7eoHT64rHNf0jWNY1WRoLGTEsnCrvhVUE8zmpPiRuVlU3oCIrS51C8js7KJpp5W8KL/mwFbD2M7Dw6Hbh7jEt2+8r+Z8h6VZdkOy1l2ctz3f3t5IPvbhhu3oPIelEiNt612FyiWt2Vt3Zx2VpLcQREqil2jjUk+eQBQemqQatph1SBXVVz76kcS9R61edqtWkZ/2faNFw/wDkM7EZ/hGPzoT1fULW1WCwknht1fLcJ8IwBviglFXSHR0rZ5L2djuJ2msY4wsm5Xlir3ROzVvbjvLm2i738JC8vXNCfZ/U7yw0O2mZGlTueMb4PLOAaLrPU7ieJWTAR9wedA149Gf6ylGkWtxKYojFHu3ShHtPof26xkVt3wTxeuKKYOWW3Y9a91NR9ifHPFeTEtXoxHUtCubezjvo0PcuMNge63rVKs7R+5sc9a33RtLhuNIWGdQVlU5BG25rGe2WiNoWuS22CIWHHET1Xy+VV45eSJskKZXrdHG8Kk/SvadtpliiCvErHnk5pUyhR9KXM5nJy2B0A6VCigEcrkZLNypXCFW/lTSO4YYOagjS0kXNEyGZyxRhuOuKfEhOI1OWbqOgrwOghLyKMAZYmoMcjPI8iuyhjkAHGKekLboru2t3Domi3GptbrK8IHCOWWJCjJ+JrAL29uNU1B7m7k45ZWHEegHkPICtT9r9/ImiWll3p/5E5dl/eVB/VhWXaPbm61GOIDI4sn4U1KlYmTuVG0adohfsbpsvDwk2asc9OJSR+lROykpjgW2l/DsCfLpR+BHYaTh1BS3t1HD54UbUG6dYkqJMbjG3mKmylWMvVThG1N3mXs3A8jUhQCgxvXDqCFjP4zj5daSGOafiO3hA6KKDvbDpiS6Tb6iqgyW8gUn+E0X5CxYX8G1V3bGEX3ZLUI2GcRFx8qdB0xeSNow2IkLhcYzsD0pVz7vPOa8qwiPpG53NcQRhznyp4rxGuJ2EaiOPmRv6VGkWjV1JxfdKfCOZ864jXOyiukj5AChz2hdoB2d0QpA2L67zHDjmgx4nx6Z29SKahUv2Zz7RtYTWNfeO2bit7Ne4Qg7M2cuR89vlTHs9tozq0lxPGXSFeIjzxvj54Aodh8OFIxvv9KK+xVwtu82OEu7pt5Abmjm/qDBfbZs+oXT3DLA0Xd5du8UtnkSB9cZ+lV1t9yTEfwnFXssCTDjAwx5MKq9Ut2t5EuCPD7r4/I1NNWilHjErxFXC+HO42yK5TP2lvEXK5ArpCGXizyp2xXHHMRz5UuLC8fYzMjxksWGW6eVCHbS9mtLVUS7lCurh4wcBs4A2+v51f65qKwAlGywG58qz6+Mt3cPdXPEeH3FJ69KYu2ZLlAjIrcWMMceVKn7suk3Cu+Bvt1pVVZJ4n0Y0ixxmRvkPM1HQFjxMcsdzXEj99P8AwJyHn61JhUE1Oh7PTwQxmWQ4VRkmgD2p6T+09Dg1mNPvLVsOOojY4P0OD9aN72QTZjU+AdR1NVnaNli7L6iHXKfZipAHnt+tEnR7xswWZMcLEchg/EU9pF01vdrKvQ7jzHlUu7sSsnd558j5joar+6NvIwYYYGjTTQtpxZv3ZrWzeWcXejiQIMP1+fnV9MqXEBUkMjDFZp7K7/7RbS27neHYfA8v5YrQuF4/FEcDqOhpMtMfHaK2ay7uPu4ZcMTwsj88eYNK6nKL3MHQYLeVSrvMiGVEPeRjfI6HnXCKjLkcqXr0GtIEdRhZ5o4cHx5ZvgP91U6hCY4mkbAC9PWi7UUUalHyx3RI265/1QZ2guOGB15kg7fT+lajz4BMx45pGJIyxpV2VUk5yT515VFk/ib5HsB8aWoTPDZExnBYhc+hpUqV6GeyNZnEAA6UtY30WVjzYjP1r2lWhGYarbxpkKNkbhX4VSa1EvDBLjDOgLYpUq2PTJ8CH2TMV1S5Ucihz8iP6mthByi+tKlWT6ZDhGc8TcJGw/OmF8OQPOvaVKHPhXamoLwyfiD8I+BH9hWc9ot2nOeTgD86VKtj0GXCntYEkjJbOQcbGvKVKmC0f//Z" alt="Image" />
+            <div className="info">
+                <b>Susan Smith</b>
+                <p>Wed developer</p>
+            </div>
+        </div>
+        <div className="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sit, dolorum harum doloremque laudantium minus beatae aspernatur consequuntur praesentium vitae.
+        </div>
+        <div className="control">
+            <button> Prev </button>
+            <button> Next </button>
+        </div>
+    </div>
+    )
+}
+
+
+function App() {
+    return <div className="review-card">
+        <Header/>
+        <ReviewCard/>
+    </div>
+}
+
+const root = ReactDOM.createRoot(document.getElementById('app'));
+root.render(<App />);
